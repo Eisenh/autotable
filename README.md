@@ -1,4 +1,11 @@
 # Quasar App (autotable)
+Changelog:
+1) added extensions to allow use of "EasyTable />"
+  quasar ext add easy-tables
+  quasar ext add easy-forms # peer dependency
+
+2) npm i --save vuex-easy-firestore firebase
+
 
 A Quasar Framework app
 
@@ -33,3 +40,13 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
           { src: 'statics/icons/icon-256x256.png', sizes: '256x256', type: 'image/png' },
           { src: 'statics/icons/icon-384x384.png', sizes: '384x384', type: 'image/png' },
           { src: 'statics/icons/icon-512x512.png', sizes: '512x512', type: 'image/png' }
+
+
+Changelog:
+1) added extensions to allow use of "EasyTable />"
+  $ quasar ext add easy-tables
+  $ quasar ext add easy-forms # peer dependency
+
+2) $ npm i --save vuex-easy-firestore firebase
+
+3) add firebase config to /boot/firebase.js
